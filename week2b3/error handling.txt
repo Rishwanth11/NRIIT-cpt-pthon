@@ -1,0 +1,47 @@
+Exceptional handling 
+
+built-in and useer defined 
+Exception-base class for all
+exceptions
+StopIteration - Generated Method doesnot point any object
+SystemExit- sys.exit()
+StandardError- except StopIteration and system exit remaining all are standard errors
+ArithmeticError-math calc errors
+OverflowError
+ZeroDivisionError- 0 divide
+FloatingPointError- 3.14159
+AssertionError- assert statement fails
+AttributeError- Balancing of attribute 
+EOFError- End of the File errors
+ImportError- reading file errors
+KeyboardInterupt- control+c
+LookupError-Lookup errors
+IndexError
+NameError
+KeyError
+EnvironmentError-
+ImportError-File opening
+SyntaxError-
+ValueError
+RuntimeError
+TypeError e33
+AuthenticationError
+
+
+Syntax of try 
+
+try:
+    statement
+    statement
+except ExceptionName:
+
+
+Multiple exceptions in try block
+
+try:
+    operations
+except ExceptionName:
+
+except ExceptionName:
+
+except ExceptionName:
